@@ -1,0 +1,17 @@
+Nome tabella: Restored-Car
+
+id - BIGINT - PRIMARY_KEY(NOTNULL, UNIQUE, AUTOINCREMENT, INDEX)
+frame_number - VARCHAR(40) - NOTNULL - UNIQUE - INDEX
+brand - VARCHAR(30) - NOTNULL
+model - VARCHAR(30) - NOTNULL
+year - YEAR - NULL
+condition - VARCHAR(100) - NULL
+info_and_optional - VARCHAR(200) - NULL
+old_owner - VARCHAR(30) - NOTNULL
+price - DECIMAL(6, 2) - NULL
+cilindrata - SMALLINT - NOTNULL
+weight - FLOAT(1, 4) - NOTNULL
+poster - TEXT - DEFAULT(https://Restored-Car.com/images/default_Restored-Car.jpg)
+origin - VARCHAR(70) - NOTNULL
+km_traveled - MEDIUMINT - NULL
+company_car - TINYINT - NOTNULL
